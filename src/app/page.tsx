@@ -1,6 +1,7 @@
 import Header from "@/components/header/header";
 import Headings from "@/components/headings/headings";
 import Hero from "@/components/hero/hero";
+import Merits from "@/components/merits/merits";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <Header />
         <Hero />
       </div>
+      <Merits />
     </main>
   );
 }

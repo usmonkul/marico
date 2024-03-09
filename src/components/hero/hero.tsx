@@ -9,7 +9,7 @@ const Hero = () => {
                 <p className="bg-gradient-to-r from-[#FE6783] to-[#FFBF84] inline-block text-transparent bg-clip-text">So you dont&apos;t lose them.</p>
             </h1>
             <div className='flex flex-col items-center'>
-                <p className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center mb-12">
+                <p className="text-2xl md:text-3xl lg:text-4xl font-medium text-center mb-12">
                     Turn your audience into email and <br />
                     text message subscribers.
                 </p>
