@@ -27,7 +27,7 @@ const Merits = () => {
                 </li>
                 <li className='flex flex-col items-center justify-center'>
                     <div className="flex items-center justify-center gap-2 text-3xl font-semibold text-center mb-2">
-                        <Image src={PartyEmoji} alt="Smile Emoji" width={23} height={23} />
+                        <Image src={PartyEmoji} alt="Smile Emoji" width={23} height={23} className='w-auto h-auto' />
                         More Time
                     </div>
                     <span className="text-text-content text-lg">Spend less time on marketing tools</span>

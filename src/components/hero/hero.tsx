@@ -6,7 +6,7 @@ const Hero = () => {
         <section className='h-full py-20 container flex-grow flex flex-col items-center justify-center md:gap-20 lg:gap-32'>
             <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold text-center">
                 Own your audience. <br />
-                <p className="bg-gradient-to-r from-[#FE6783] to-[#FFBF84] inline-block text-transparent bg-clip-text">So you dont&apos;t lose them.</p>
+                <p className="bg-gradient-to-r from-[#FE6783] to-[#FFBF84] inline-block text-transparent bg-clip-text">So you don&apos;t lose them.</p>
             </h1>
             <div className='flex flex-col items-center'>
                 <p className="text-2xl md:text-3xl lg:text-4xl font-medium text-center mb-12">
