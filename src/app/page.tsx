@@ -1,3 +1,4 @@
+import CTA from "@/components/cta/cta";
 import Feedback from "@/components/feedback/feedback";
 import Header from "@/components/header/header";
 import Hero from "@/components/hero/hero";
@@ -9,15 +10,13 @@ import Step3 from "@/components/steps/step3";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col ">
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <Hero />
-      </div>
+      <Hero />
       <Merits />
       <Step1 />
       <Step2 />
       <Step3 />
       <Feedback />
+      <CTA />
     </main>
   );
 }
