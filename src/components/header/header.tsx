@@ -20,30 +20,32 @@ const Header = () => {
                 <span className="font-extrabold text-4xl">Marico</span>
             </Link>
 
-            <ul className='flex items-center gap-10 text-text-content'>
-                <li className='hover:text-hover-blue transition-colors duration-200'>
-                    <DropdownMenu>
-                        <DropdownMenuTrigger className='flex items-center gap-2'>Use Cases <span className='mb-2'>&#8964;</span></DropdownMenuTrigger>
-                        <DropdownMenuContent className='bg-transapernt text-text-content border-none'>
-                            <DropdownMenuLabel>Cases</DropdownMenuLabel>
-                            <DropdownMenuSeparator />
-                            <DropdownMenuItem>Case 1</DropdownMenuItem>
-                            <DropdownMenuItem>Case 2</DropdownMenuItem>
-                            <DropdownMenuItem>Case 3</DropdownMenuItem>
-                            <DropdownMenuItem>Case 4</DropdownMenuItem>
-                        </DropdownMenuContent>
-                    </DropdownMenu>
-                </li>
-                <li className='hover:text-hover-blue transition-colors duration-200'>
-                    <Link href={'#'}>About</Link>
-                </li>
-                <li className='hover:text-hover-blue transition-colors duration-200'>
-                    <Link href={'#'}>Price</Link>
-                </li>
-                <li className='hover:text-hover-blue transition-colors duration-200'>
-                    <Link href={'#'}>Blog</Link>
-                </li>
-            </ul>
+            <nav>
+                <ul className='flex items-center gap-10 text-text-content'>
+                    <li className='hover:text-hover-blue transition-colors duration-200'>
+                        <DropdownMenu>
+                            <DropdownMenuTrigger className='flex items-center gap-2'>Use Cases <span className='mb-2'>&#8964;</span></DropdownMenuTrigger>
+                            <DropdownMenuContent className='bg-transapernt text-text-content border-none'>
+                                <DropdownMenuLabel>Cases</DropdownMenuLabel>
+                                <DropdownMenuSeparator />
+                                <DropdownMenuItem>Case 1</DropdownMenuItem>
+                                <DropdownMenuItem>Case 2</DropdownMenuItem>
+                                <DropdownMenuItem>Case 3</DropdownMenuItem>
+                                <DropdownMenuItem>Case 4</DropdownMenuItem>
+                            </DropdownMenuContent>
+                        </DropdownMenu>
+                    </li>
+                    <li className='hover:text-hover-blue transition-colors duration-200'>
+                        <Link href={'#'}>About</Link>
+                    </li>
+                    <li className='hover:text-hover-blue transition-colors duration-200'>
+                        <Link href={'#'}>Price</Link>
+                    </li>
+                    <li className='hover:text-hover-blue transition-colors duration-200'>
+                        <Link href={'#'}>Blog</Link>
+                    </li>
+                </ul>
+            </nav>
 
             <div className="flex items-center gap-4 font-medium">
                 <Button variant={'ghost'}>Login</Button>

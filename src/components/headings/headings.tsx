@@ -14,7 +14,7 @@ const Headings = ({ variant, text, className, text_color, ...props }: headingInt
     } else if (variant === 'hs') {
         return <h2 className={cn('text-4x md:text-5xl lg:text-7xl font-semibold ', className)}{...props}>{text} <span className='text-brand-color'>{text_color}</span></h2>
     } else if (variant === 'hb-l') {
-        return <h3 className={cn('text-4x md:text-5xl lg:text-8xl font-bold ', className)}{...props}>{text}</h3>
+        return <h3 className={cn('text-4x md:text-5xl lg:text-7xl 3xl:text-8xl font-bold ', className)}{...props}>{text}</h3>
     }
     return (
         <div>Headings</div>
