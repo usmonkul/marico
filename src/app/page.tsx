@@ -1,6 +1,5 @@
 import CTA from "@/components/cta/cta";
 import Feedback from "@/components/feedback/feedback";
-import Header from "@/components/header/header";
 import Hero from "@/components/hero/hero";
 import Merits from "@/components/merits/merits";
 import Step1 from "@/components/steps/step1";
