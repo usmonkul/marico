@@ -2,7 +2,7 @@ import React from 'react'
 import Headings from '../headings/headings'
 import { Button } from '../ui/button'
 import Link from 'next/link'
-import step1Image from '/public/assets/image.png'
+import step3Image from '../../../public/assets/Image.png'
 import step3Shape from '../../../public/assets/Shape-66.svg'
 import Image from 'next/image'
 
@@ -43,7 +43,7 @@ const Step3 = () => {
                     </div>
                 </div>
                 <div className="w-1/2 relative flex items-end justify-end">
-                    <Image src={step1Image} alt='Spotify Blackpink album' className='absolute top-0 w-auto h-auto' />
+                    <Image src={step3Image} alt='Spotify Blackpink album' className='absolute top-0 w-auto h-auto' />
                     <Image src={step3Shape} alt='Shape' className='max-w-[309px] h-auto' />
                 </div>
             </div>
