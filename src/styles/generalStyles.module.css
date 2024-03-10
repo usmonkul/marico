@@ -1,0 +1,6 @@
+.feedbackBg {
+    background-image: url('/assets/people.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
