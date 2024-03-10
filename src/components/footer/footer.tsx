@@ -4,8 +4,8 @@ import footerLogo from '../../../public/assets/Logo.svg'
 
 const Footer = () => {
     return (
-        <footer className="container flex justify-between items-center py-10">
-            <div className="flex flex-col gap-1">
+        <footer className="container flex flex-col lg:flex-row gap-10 justify-between items-center py-10">
+            <div className="flex flex-col items-center lg:items-start gap-1">
                 <Link href={'/'} className="flex items-center gap-4">
                     <Image src={footerLogo} alt='Marico' height={42} width={45} />
                     <span className="font-extrabold text-4xl">Marico</span>
