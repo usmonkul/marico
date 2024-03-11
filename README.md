@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Merico Website: An Open Source Project
 
-## Getting Started
+The Merico website is a cutting-edge web application built using Next.js, TailwindCSS, TypeScript, and deployed on Vercel. As an open-source project, you are invited to explore the codebase and leverage its functionalities for your own projects.
 
-First, run the development server:
+### Getting Started
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To run the Merico website on your local machine, follow these simple steps:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone the Repository**: Download or clone the project repository to your local environment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install Dependencies**: Navigate to the project directory in your terminal and run the following command to install the necessary dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3. **Run the Development Server**: Start the development server by executing the following command:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    Alternatively, you can use `yarn` or `pnpm` depending on your package manager preference.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **View the Result**: Once the development server is up and running, open your web browser and visit [https://www.xayrli.life/](https://www.xayrli.life/) to experience the Merico website firsthand.
 
-## Deploy on Vercel
+### Contribution
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The Merico project welcomes contributions from developers like you. Whether you're interested in fixing bugs, adding new features, or enhancing existing functionalities, your contributions are valuable to the community. Feel free to fork the repository, make your changes, and submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Feedback and Support
+
+If you encounter any issues, have suggestions for improvement, or simply want to provide feedback, don't hesitate to reach out. Your input helps us make the Merico website even better for users like you.
