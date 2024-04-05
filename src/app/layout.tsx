@@ -4,6 +4,7 @@ import { Poppins } from 'next/font/google';
 import { cn } from "@/lib/utils";
 import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
+import "aos/dist/aos.css";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -24,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-black text-white font-sans antialiased",
+          "min-h-screen bg-black text-white font-sans antialiased overflow-x-hidden",
           poppins.className
         )}
       >

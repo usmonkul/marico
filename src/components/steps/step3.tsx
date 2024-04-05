@@ -10,9 +10,9 @@ const Step3 = () => {
     return (
         <section className='py-30'>
             <div className="flex flex-col items-center mx-auto">
-                <span className="text-lg font-semibold text-light-blue uppercase mb-2">Step 3</span>
-                <Headings variant='hs' text='Send Emails & Text Messages' />
-                <p className="text-text-content md:text-2xl mt-5 lg:mt-1 mb-8 px-1 max-w-[750px] text-center text-pretty">
+                <span data-aos="fade-up"  className="text-lg font-semibold text-light-blue uppercase mb-2">Step 3</span>
+                <Headings data-aos="fade-up"  variant='hs' text='Send Emails & Text Messages' />
+                <p data-aos="fade-up"  className="text-text-content md:text-2xl mt-5 lg:mt-1 mb-8 px-1 max-w-[750px] text-center text-pretty">
                     No more going through a social platform. Reach and engage
                     your audience directly over email and text massage.
                 </p>

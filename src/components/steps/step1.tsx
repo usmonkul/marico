@@ -10,12 +10,12 @@ const Step1 = () => {
     return (
         <section className='min-h-screen py-10'>
             <div className="flex flex-col items-center mx-auto">
-                <span className="text-lg font-semibold text-light-blue uppercase mb-2">Step 1</span>
+                <span  data-aos="fade-up"  className="text-lg font-semibold text-light-blue uppercase mb-2">Step 1</span>
                 <Headings variant='hs' text='Connect Your Content' />
-                <p className="text-text-content text-base md:text-2xl px-1 mt-2 mb-8 max-w-[750px] text-center text-pretty">Bring all of your content together and get a Homepage that
+                <p  data-aos="fade-up"  className="text-text-content text-base md:text-2xl px-1 mt-2 mb-8 max-w-[750px] text-center text-pretty">Bring all of your content together and get a Homepage that
                     automatically updates whenever you create anywhere online.
                 </p>
-                <Button variant={'outline'} size={'lg'} className='md:py-6'>View Available Sources</Button>
+                <Button  data-aos="fade-up"  variant={'outline'} size={'lg'} className='md:py-6'>View Available Sources</Button>
             </div>
 
             <div className="flex flex-col lg:flex-row container mt-40">
